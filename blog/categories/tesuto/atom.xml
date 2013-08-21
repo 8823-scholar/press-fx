@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[とある相場のど素人]]></title>
-  <link href="http://press.hayabusa-lab.jp/fx/atom.xml" rel="self"/>
+  <title><![CDATA[Category: テスト | とある相場のど素人]]></title>
+  <link href="http://press.hayabusa-lab.jp/fx/blog/categories/tesuto/atom.xml" rel="self"/>
   <link href="http://press.hayabusa-lab.jp/fx/"/>
   <updated>2013-08-21T20:45:33+09:00</updated>
   <id>http://press.hayabusa-lab.jp/fx/</id>
