@@ -1,4 +1,4 @@
-$max-width: 1000px;
+$max-width: 1124px;
 
 *{
 	margin: 0;
@@ -46,4 +46,11 @@ a{
 	@media screen and (max-width: 1040px){
 		width: 100%;
 	}
+}
+
+.basic-alignment {
+    &.left { float: left; margin-right: 1.5em; }
+    &.right { float: right; margin-left: 1.5em; }
+    &.center { display:block; margin: 0 auto 1.5em; }
+    &.left, &.right { margin-bottom: .8em; }
 }

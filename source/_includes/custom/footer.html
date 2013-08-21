@@ -1,6 +1,22 @@
-Copyright &copy; {{ site.time | date: "%Y" }}
-{% if site.author %}
-    {{ site.author }}
-{% else %}
-    {{ site.title }}
-{% endif %}
+<aside class="sidebar">
+  {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+  <br style='clear:both;' />
+</aside>
+
+<section class='copyright'>
+    Copyright &copy; {{ site.time | date: "%Y" }}
+    {% if site.author %}
+        {{ site.author }}
+    {% else %}
+        {{ site.title }}
+    {% endif %}
+    &nbsp;-&nbsp;
+    Powered by <a href='http://octopress.org/'>Octopress</a>
+    &nbsp;-&nbsp;
+    Used skin by <a href='http://zespia.tw/Octopress-Theme-Slash/'>Slash</a>(customized)
+</section>
+

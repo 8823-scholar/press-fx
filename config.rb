@@ -8,7 +8,7 @@ http_path = "/fx/"
 http_images_path = "/fx/images"
 http_generated_images_path = "/images"
 http_fonts_path = "/fx/fonts"
-css_dir = "public/press-fx/stylesheets"
+css_dir = "public/fx/stylesheets"
 
 # Local development paths
 sass_dir = "sass"

@@ -1,0 +1,10 @@
+---
+layout: post
+title: "テスト"
+date: 2013-08-21 16:42
+comments: true
+categories: テスト
+---
+
+テストだお
+
