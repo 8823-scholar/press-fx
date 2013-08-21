@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://8823-scholar.github.io/press-fx/atom.xml" rel="self"/>
-  <link href="http://8823-scholar.github.io/press-fx/"/>
-  <updated>2013-08-21T11:54:38+09:00</updated>
-  <id>http://8823-scholar.github.io/press-fx/</id>
+  <title><![CDATA[とある相場のど素人]]></title>
+  <link href="http://press.hayabusa-lab.jp/fx/atom.xml" rel="self"/>
+  <link href="http://press.hayabusa-lab.jp/fx/"/>
+  <updated>2013-08-21T12:44:01+09:00</updated>
+  <id>http://press.hayabusa-lab.jp/fx/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[智史之介]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
