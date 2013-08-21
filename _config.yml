@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://press.hayabusa-lab.jp/fx
+title: とある相場のど素人
+subtitle: 一介のプログラマによるFX関連の記事
+author: 智史之介
 simple_search: http://google.com/search
 description:
 
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /fx/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
-permalink: /blog/:year/:month/:day/:title/
+root: /fx
+permalink: /blog/:title/
 source: source
-destination: public
+destination: public/press-fx
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -69,7 +69,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: 8823scholar
 twitter_tweet_button: true
 
 # Google +1
@@ -97,4 +97,8 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
+facebook_user: 8823scholar
 facebook_like: false
+
+# Github
+github_user: 8823-scholar
