@@ -262,6 +262,7 @@ multitask :push do
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
     system "git push origin #{deploy_branch}"
+    system "git push hayabusa #{deploy_branch}"
     puts "\n## Github Pages deploy complete"
   end
 end
